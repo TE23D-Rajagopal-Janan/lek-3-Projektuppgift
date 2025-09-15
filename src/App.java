@@ -13,8 +13,16 @@ public class App {
 
         if (val == 1) {
             System.out.println("Ange personnummer");
+            int personnummer = input.nextInt(); 
+            bokningar[0] = personnummer;
+            // System.out.println(bokningar[personnummer]);
         }
-        
+        else if (val == 2) {
+            for (int i = 0; i < bokningar.length; i++) {
+                // System.out.println(bokningar);
+            }
+        }
+
         
 
 
