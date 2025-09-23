@@ -22,7 +22,9 @@ public class App {
             }
             else if (val == 2) {
                 for (int i = 0; i < bokningar.length; i++) {
-                    System.out.println(bokningar[i]);
+                    if (bokningar[i] != 0) {
+                        System.out.println( i+1 + bokningar[i]);
+                    }
                 }
             }
             else if (val == 3){
